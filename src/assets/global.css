@@ -1,0 +1,15 @@
+/* for search bar */
+
+.srch_bar {
+    max-width: 353px;
+    margin-right: 36px;
+}
+
+
+/* for star */
+
+.required_field::after {
+    content: "*";
+    color: red;
+    margin-left: 2px;
+}

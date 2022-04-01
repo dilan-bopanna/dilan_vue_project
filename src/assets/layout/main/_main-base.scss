@@ -1,0 +1,36 @@
+// Main Base
+
+.app-main__outer {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  z-index: 8;
+  padding: $app-header-height 0 0 $app-sidebar-width;
+  transition: all .2s;
+}
+
+.app-main__inner {
+  padding: $grid-gutter-width $grid-gutter-width 0;
+  flex: 1;
+}
+
+.body-tabs {
+  margin: (-($grid-gutter-width / 3)) 0 ($grid-gutter-width / 1.3);
+}
+
+._vue-flash-msg-body_success,._vue-flash-msg-body,._vue-flash-msg-_right-bottom
+   /* ._vue-flash-msg-body__content*/ {
+  z-index: 10 !important;
+}
+
+.data_chat_height_scroll{
+  height:400px !important
+}
+
+.chat-layout .chat-box-wrapper {
+  padding: 6px !important;
+}
+
+// Themes
+
+@import "themes/main-white";
